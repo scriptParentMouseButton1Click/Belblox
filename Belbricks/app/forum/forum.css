@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    color: turquoise;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    color: #fff;
+}
+.subforum {
+    margin-top: 20px;
+}
+
+.subforum-title {
+    background-color: rgb(16, 84, 185);
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    margin: 4px;
+}
+
+.subforum-row {
+    display: grid;
+    grid-template-columns: 47.5% 5% 47.5%;
+}
+
+.subforum-column {
+    padding: 10px;
+    margin: 4px;
+    border-radius: 5px;
+    background-color: #3b3c3d;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* @media screen and (max-width: 460){
+    .container {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .subforum-row {
+        display: grid;
+        grid-template-columns: 25% 75%;
+        grid-template-rows: 65% 35%;
+    }
+
+    .subforum-column {
+        padding: 10px;
+        margin: 4px;
+        border-radius: 5p;
+        background-color: #3b3c3d;
+    }
+} */
+
+
+
